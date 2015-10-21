@@ -6,6 +6,8 @@ AVAudioEngine is a new tool that Apple gave developers in 2014 to make building 
 AEAudioPlayer
 =============
 
+**IMPORTANT NOTE**: This is not tuned for production. It is meant for instructional purposes.
+
 AEAudioPlayer is an AVAudioEngine music player to mimic AVAudioPlayer. Simply add AEAudioplayer.h and AEAudioPlayer.m to your project and use it the same way that you use any AVAudioPlayer. 
 
 To set frequencies, simply initialize AEAudioPlayer with and array of NSNumbers with the frequencies that you would like to use. Then call the setGain: method to set the gain for that frequency. 
